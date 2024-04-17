@@ -95,5 +95,3 @@ if question := st.chat_input(placeholder="Let's chat"):
     create_answer(question)
     display_chat()
     
-print(memory)
-print(st.session_state.chat_history)
